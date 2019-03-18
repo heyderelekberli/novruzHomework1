@@ -64,7 +64,7 @@ width:100%;
 font-size:22px;
 }
 .aButton {
-    border:1px solid transparent; 
+    border:2px solid transparent; 
     padding:7px 30px;
     text-decoration: none !important;
     margin-right:13px;
@@ -75,6 +75,8 @@ font-size:22px;
 }
 .aButton:hover{
     color: #fff;
+    transition: 0.4s;
+    opacity:0.8;
 }
 .orangeButton{
    background-color: #fc7f0c !important;
@@ -148,4 +150,121 @@ font-size:22px;
     border:2px solid rgba(136, 136, 136, 0.308) ;
     background-color: #fff ;
     color:#777;
+}
+.count{
+   background-color:#31c2b1;
+   
+}
+
+.number{
+    width:80%;
+    text-align:center;
+    color:#fff;
+    padding:50px;
+}
+.number>i{
+    font-size:30px;
+}
+.number>i>span{
+    margin-left:20px;
+    font-size:40px;
+}
+.number>p{
+    font-size:18px !important;
+    margin: 20px 80px 0px 0px;
+}
+.darkFon{
+    padding:200px 0px;
+    margin:0px;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.darkFon>h3, .darkFon>p{
+    z-index:2;
+}
+.darkness{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index:1;
+    background-color: rgba(0,0,0,.75)
+}
+.darkFon>p{
+    font-size:19px;
+}
+.darkFon>img{
+width:100%;
+height:100%;
+position: absolute;
+z-index:-1;
+}
+.yellowButton{
+    background-color: #fc7f0c;
+    padding:10px 30px;
+    letter-spacing: 6px;
+    margin-top:15px;
+    z-index:2;
+}
+.yellowButton:hover{
+background-color:transparent !important;
+border:2px solid #fff;
+}
+.orangeLine{
+    width:40px;
+    height:5px;
+    background-color: #fc7f0c;
+    margin-left:49%;
+}
+.muted{
+    font-size:20px;
+    letter-spacing: 6px;
+}
+.images{
+    padding:0px;
+    position: relative;
+}
+.images>img{
+   width:100%;
+   height:100%;
+}
+.shadow{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.75);
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    opacity: 0;
+}
+.images:hover .shadow{
+    opacity: 1;
+    transition: 0.7s;
+}
+.shadow>h3{
+    color:#fc7f0c;
+}
+.shadow>i{
+    color:#fc7f0c;
+    transform:translate(155px, 70px)
+}
+.whiteButton{
+    background-color: #fff !important;
+    border:2px solid rgba(153, 153, 153, 0.582) !important;
+    color:#777 !important;
+}
+.whiteButton:hover{
+background-color: #fc7f0c !important;
+border:2px solid transparent  !important;
+color:#fff !important;
+}
+.back{
+    background-color: #fcfafa;
+    
 }
