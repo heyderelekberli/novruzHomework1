@@ -366,7 +366,53 @@ margin-top:-20px !important
     color:#fff ;
 }
 .logoPart{
-    border:1px solid red;
-    height:300px;
+     padding:70px 0px 20px 0px;
+}
+.logoPart>div{
+    height:100px;
+    width:80%;
+}
+.logoPart>div>img{
+    width:100%;
+    height:100%;
+}
+.mapsPart{
+    background-color: #00c9b1;
+
+}
+/* Map Part */
+.map>img{
+   width:100%;
+   height:100%;
 }
 
+.inputArea{
+ padding:0px 80px;
+}
+.inputPart{
+    display:flex;
+    flex-direction: row;
+    padding:30px 0px 130px 0px;
+}
+.inputPart>input{
+    width:45%;
+    border:2px solid white;
+    background-color: #00c9b1;
+}
+.inputPart>input:focus, textarea:focus{
+    outline:none;
+}
+textarea{
+    width:100%;
+    border:2px solid white;
+    background-color: #00c9b1;
+}
+.greenButton:hover{
+background-color: transparent;
+border:2px solid #fff
+}
+.greenBut:hover{
+    background-color: transparent !important;
+border:2px solid rgba(102, 102, 102, 0.336);
+color:#666
+}
