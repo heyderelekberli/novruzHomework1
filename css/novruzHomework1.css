@@ -2,12 +2,14 @@ body{
     margin:0px;
     padding:0px;
 } 
+/* Header Part */
 .listUl>li>a:visited{
 color:white;
 }
 .listUl>li>a:link{
     text-decoration: none;
 }
+/* navbar */
 .doLogo{
 width:13%;
 height:70%;
@@ -36,6 +38,7 @@ margin-left:-20px;
     width:100%;
     padding:0px !important;
 }
+/* Image Part */
 .imagePart{
     width:100%;
     height:100%;
@@ -96,6 +99,7 @@ font-size:22px;
 .upIcon>a:visited{
     color:rgb(3, 3, 65)
 }
+/* Boxes Part */
 .boxes{
     width:85%;
     position: relative;
@@ -119,6 +123,12 @@ font-size:22px;
     border:1px solid transparent;
     transition:0.5s;
 }
+.iconBorder:hover .iconBorder{
+    background-color:#fc7f0c;
+    color:#fff;
+    border:1px solid transparent;
+    transition:0.5s;
+}
 .boxes>h3{
   margin-top:50%;
    
@@ -129,6 +139,7 @@ font-size:22px;
 .other{
     color: #fc7f0c !important;
 }
+/* Image&List Part */
 .listIcon>ul>li{
    list-style-type: none;
 }
@@ -151,11 +162,10 @@ font-size:22px;
     background-color: #fff ;
     color:#777;
 }
+/* Count Part */
 .count{
    background-color:#31c2b1;
-   
 }
-
 .number{
     width:80%;
     text-align:center;
@@ -173,6 +183,7 @@ font-size:22px;
     font-size:18px !important;
     margin: 20px 80px 0px 0px;
 }
+/* Shadow Part */
 .darkFon{
     padding:200px 0px;
     margin:0px;
@@ -223,6 +234,7 @@ border:2px solid #fff;
     font-size:20px;
     letter-spacing: 6px;
 }
+/* Gallery */
 .images{
     padding:0px;
     position: relative;
@@ -266,5 +278,95 @@ color:#fff !important;
 }
 .back{
     background-color: #fcfafa;
-    
 }
+/* BLOG HERE */
+.combineBox{
+    width:80%;
+    margin:auto;
+    padding:auto;
+    background-color:#fff;
+}
+.largeBox{
+    width:100%;
+    height:33.3%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border:1px solid rgba(71, 67, 67, 0.123);
+    align-items: center;
+    position: relative;
+}
+.largeBox>i{
+color:rgba(71, 67, 67, 0.425)
+}
+.dataBox{
+    width:45px;
+    height:45px;
+    border:1px solid transparent;
+    background-color: #fc7f0c;
+    font-size:14px !important;
+    text-align: center;
+    color:white;
+    z-index:2;
+}
+.textBox{
+    width:250px;
+    height:100%;
+    font-size:15px;
+    margin:0px 620px 0px 40px;
+    text-align: center;
+    z-index:2;
+}
+.textBox a:visited{
+    color:#111
+}
+.textBox a:hover{
+text-decoration: none;
+}
+.textBox>h4{
+    font-size:16px;
+    margin:35px 0px 5px 0px;
+    z-index:2;
+}
+.dec{
+margin-top:-20px !important
+}
+.shadowImage{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.75);
+    z-index:1;
+    opacity: 0;
+}
+.largeBox>img{
+    width:100%;
+    height:100%;
+    z-index:1;
+    position: absolute;
+    opacity:0;
+}
+.largeBox:hover img{
+    opacity:1;
+    transition:0.5s
+}
+.largeBox:hover .shadowImage{
+    opacity: 1;
+    transition:0.5s
+}
+.largeBox:hover i{
+    color:#fff;
+    z-index: 2;
+}
+.largeBox:hover .textBox>p>a{
+    color:#fff !important;
+    transition:1s
+}
+.largeBox:hover .textBox>h4>a{
+    color:#fff ;
+}
+.logoPart{
+    border:1px solid red;
+    height:300px;
+}
+
